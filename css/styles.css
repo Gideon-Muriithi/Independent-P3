@@ -20,3 +20,6 @@ h2{
 .form{
   background-color: transparent;
 }
+#text-hidden{
+  display: none;
+}
