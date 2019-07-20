@@ -8,9 +8,6 @@ h2{
 #socialmedia{
   text-align: center;
 }
-#socialmedia{
-  border: none;
-}
 #contact{
   border: none;
 }
@@ -19,4 +16,7 @@ h2{
 }
 #services{
   border: none;
+}
+.form{
+  background-color: transparent;
 }
