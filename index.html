@@ -105,17 +105,25 @@
           <div class="card-img-overlay text-white text-center">
             <h2>CONTACT US</h2>
             <br><form class="form-group" >
-              <input placeholder="Name..." type="text" name="name">
-              <input placeholder="Email..." type="email" name="email">
+              <div class="row">
+                <div class="col-md-6">
+                  <label for="name"></label>
+                  <input class="form-control" placeholder="Name..." type="text" id="name">
+                </div>
+                <div class="col-md-6">
+                  <label for="email"></label>
+                  <input class="form-control" placeholder="Email..." type="email" id="email">
+                </div>
+              </div>
 
-              <br><br>
+              <br>
               <textarea id="textarea" name="comment" form="usrform" cols="90" rows="8" placeholder="Your message here..."></textarea>
               <br><button type="submit" class="btn btn-lg btn-success">Submit</button>
 
             </form>
           </div>
         </div>
-      <br><br>
+      <br><br><br>
       <div class="card-footer" id="socialmedia" >
         <img src="assets/social_icons/twitter.png" alt="Twitter">
         <img src="assets/social_icons/dribble.png" alt="Dribble">
