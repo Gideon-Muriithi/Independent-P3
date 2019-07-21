@@ -115,16 +115,19 @@
               <div class="row">
                 <div class="col-md-3">
                   <label for="name"></label>
-                  <input class="form-control" placeholder="Name..." type="text" id="name">
+                  <input class="form-control" placeholder="Name..." type="text" id="name"
+                   oninvalid="alert('You must fill out the entire form!');"required>
                 </div>
                 <div class="col-md-3">
                   <label for="email"></label>
-                  <input class="form-control" placeholder="Email..." type="email" id="email">
+                  <input class="form-control" placeholder="Email..." type="email" id="email"
+                   oninvalid="alert('You must fill out the entire form!');"required>
                 </div>
               </div>
 
               <br>
-              <textarea id="textarea" name="comment" form="usrform" cols="85" rows="7" placeholder="Your message here..."></textarea>
+              <textarea id="textarea" name="comment" form="usrform" cols="85" rows="7" placeholder="Your message here..."
+                 oninvalid="alert('You must fill out the entire form!');"required></textarea>
               <br><button type="submit" class="btn btn-info">Submit</button>
 
             </form>
