@@ -8,7 +8,7 @@ This is a studio program to help one practice the various jquery concepts.
 Getting Started
 Install Delani Studios on your local machine by cloning this online repository:
 
-Delani Studios repo - //
+Delani Studios repo - https://gideon-muriithi.github.io/Independent-P3/
 
 Installation
 You need a web browser installed on your machine to run this program. Examples:
@@ -23,7 +23,7 @@ If you already have git installed in your machine continue to the next step, if 
 Go to your working directory you prefer to store the files and open terminal while in that directory.
 Type the following commands
   git init
-  git clone        ///
+  git clone     https://gideon-muriithi.github.io/Independent-P3/
 After cloning successfully, got to the offline directory.
 Open the index.html file in your favorite browser. And enjoy.
 Click here to go to the live site.
