@@ -11,6 +11,19 @@ $(document).ready(function(){
     $(".toggle2").toggle();
     $("#text-hidden2").show();
   });
-  
+  $(".hoverEffect").each(function(){
+   // $(this).val($(this).data("name"));
+   $(this).hover(function(){
+     $(this).show();
+     $(this).siblings(":first").addClass("reduceOpacity");
+   });
+   });
+  $("#formbox").submit(function(event) {
+       var person1Input = $("input#name").val();
+        $(".person").append(person1Input);
 
+       $("#messageReceipt").show();
+
+      event.preventDefault();
+  });
 });

@@ -36,3 +36,9 @@ h5{
   text-align: center;
   font-weight: bold;
 }
+#messageReceipt {
+  display: none;
+}
+.hoverEffect {
+  display: none;
+}

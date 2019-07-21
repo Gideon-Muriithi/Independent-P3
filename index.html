@@ -73,9 +73,9 @@
       <br><br>
       <h2>PORTIFOLIO</h2>
       <div class="row text-center d-inline-flex flex-wrap justify-content-around position-relative cont">
-            <div class="col-md-3">
+            <div class="col-md-3 portfo1  column ">
               <br><img class="card-img" src="assets/portfolio/work4.jpg">
-
+              <div class="hoverEffect position-absolute text-center">PROJECT 4</div>
             </div>
             <div class="col-md-3">
                 <br><img class="card-img" src="assets/portfolio/work3.jpg">
@@ -104,24 +104,27 @@
           <img  class="card-img" src="assets/backgrounds/c_image.jpg">
           <div class="card-img-overlay text-white text-center">
             <h2>CONTACT US</h2>
-            <br><form class="form-group" >
+            <form class="form-group" method="post" id="formbox">
               <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-3">
                   <label for="name"></label>
                   <input class="form-control" placeholder="Name..." type="text" id="name">
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-3">
                   <label for="email"></label>
                   <input class="form-control" placeholder="Email..." type="email" id="email">
                 </div>
               </div>
 
               <br>
-              <textarea id="textarea" name="comment" form="usrform" cols="90" rows="8" placeholder="Your message here..."></textarea>
-              <br><button type="submit" class="btn btn-lg btn-success">Submit</button>
+              <textarea id="textarea" name="comment" form="usrform" cols="85" rows="7" placeholder="Your message here..."></textarea>
+              <br><button type="submit" class="btn btn-info">Submit</button>
 
             </form>
           </div>
+        </div>
+        <div id="messageReceipt">
+          <p class="btn-success"><span class="person"></span> we have received your message. Thank you for reaching out to us.</p>
         </div>
       <br><br><br>
       <div class="card-footer" id="socialmedia" >
