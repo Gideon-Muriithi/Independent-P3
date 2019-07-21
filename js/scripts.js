@@ -11,5 +11,13 @@ $(document).ready(function(){
     $(".toggle2").toggle();
     $("#text-hidden2").show();
   });
+  $(".cont img ").each(function(){
+   $(this).hover(function(){
+     $(this).addClass("reduceOpacity");
+     $(this).siblings(":last").show();
+     },function(){
+       $(this).removeClass("reduceOpacity");
+       $(this).siblings(":last").hide();
+     });
 
 });
