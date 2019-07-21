@@ -11,13 +11,15 @@ $(document).ready(function(){
     $(".toggle2").toggle();
     $("#text-hidden2").show();
   });
-  $(".hoverEffect").each(function(){
-   // $(this).val($(this).data("name"));
-   $(this).hover(function(){
-     $(this).show();
-     $(this).siblings(":first").addClass("reduceOpacity");
-   });
-   });
+  $(function(){
+    $("img.hoverEffect").hover(
+    function() {
+      $(this).stop().animate({"opacity": "0"}, 350);
+    },
+    function() {
+      $(this).stop().animate({"opacity": "1"}, 350);
+    });
+  });
   $("#formbox").submit(function(event) {
        var person1Input = $("input#name").val();
         $(".person").append(person1Input);

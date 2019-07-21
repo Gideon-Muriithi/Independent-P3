@@ -39,6 +39,18 @@ h5{
 #messageReceipt {
   display: none;
 }
-.hoverEffect {
-  display: none;
+.hoverEffect{
+    display: none;
+    border:1px solid #000;
+    height:150px;
+    width:200px;
+    margin-left:10px;
+    background-color: white;
+    position: absolute;
+    background: transparent;
+    text-align: center;
+}
+
+a:hover + div {
+    display: block;
 }
