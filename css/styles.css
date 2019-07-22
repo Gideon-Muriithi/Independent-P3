@@ -4,6 +4,7 @@ textarea{
 }
 h2{
   text-align: center;
+  font-weight: bold;
 }
 #socialmedia{
   text-align: center;
@@ -53,4 +54,21 @@ h5{
 
 a:hover + div {
     display: block;
+}
+.forPadding{
+  position: absolute;
+  height: auto;
+  width: auto;
+  top: 30%;
+  left: 22%;
+}
+.styling{
+  text-align: justify;
+  text-align: center;
+}
+#addPadding{
+  padding-left: 13%;
+}
+#forName{
+  padding-left: 18%;
 }
