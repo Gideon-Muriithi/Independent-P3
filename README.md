@@ -21,7 +21,11 @@ If you already have git installed in your machine continue to the next step, if 
 Go to your working directory you prefer to store the files and open terminal while in that directory.
 Type the following commands
   git init
+<<<<<<< HEAD
   git clone     https://gideon-muriithi.github.io/Independent-P3/
+=======
+  git clone  https://gideon-muriithi.github.io/Independent-P3/
+>>>>>>> gh-pages
 After cloning successfully, got to the offline directory.
 Open the index.html file in your favorite browser. And enjoy.
 Click here to go to the live site.
